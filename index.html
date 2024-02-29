@@ -8,6 +8,7 @@
     <title>Delicioso Burguer</title>
     <!--CSS-->
     <link rel="stylesheet" href="./_css/style.css">
+    <link rel="stylesheet" href="./_css/style__responsive.css">
     <!--FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,46 +17,150 @@
 </head>
 
 <body>
+
+
     <header>
         <div class="container">
             <div class="logo">
-                <a href="">B7 <span>.</span>Burger</a>
+                <a href="#">B7<span>.</span>Burger</a>
             </div>
-
             <nav>
-                <ul class="nav-container">
-                    <li><a href="#Inicio">Ínicio</a></li>
-                    <li><a href="#Burgers">Burgers</a></li>
-                    <li><a href="#Contato">Contato</a></li>
-                    <li class="order-btn"><a href="#order">Fazer Pedido</a></li>
+                <ul class="leftside">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Burgers</a></li>
+                    <li><a href="#">Contato</a></li>
                 </ul>
-            </nav>
-            
-            <main>
-                <section class="banner">
-                    <div class="left-banner">
-                        <h2>O Hamburguer mais delicioso.<span class="emoji">😋</span> </h2>
-                        <p>A primeira hamburgueria virtual que você faz o pedido online e come o burger através do
-                            computador.</p>
-                        <button>Fazer Pedido</button>
-                        <div class="right-banner">
-                            <img src="./_assets/_img/burger-login 1.png" alt="hamburguer">
-                        </div>
-                    </div>
-                </section>
-                <div class="search">
-                    <h3>Pesquise o seu hamburguer favorito</h3>
-
-
-
-
-
+                <div class="rigthside">
+                    <a href="#" class="button">Fazer Pedido</a>
                 </div>
-
-
-            </main>
+            </nav>
+            <div class="menu">
+                <div class="menu-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
         </div>
     </header>
+    <section class="hero">
+        <div class="container">
+            <div class="leftside">
+                <h1>O Hamburguer mais delicioso. <span class="emoticon">&#128523;</span> </h1>
+                <p>A primeira hamburgueria virtual que você faz o pedido online e come o burger através do computador.
+                </p>
+                <a href="" class="button"> Fazer pedido</a>
+            </div>
+            <div class="rigthside">
+                <img src="./_assets/_img/burger-login 1.png" alt="Burger delicioso">
+            </div>
+        </div>
+    </section>
+    <section class="search">
+        <div class="container">
+            <div class="title">Pesquise o seu<br> Hamburguer favorito!</div>
+            <div class="sides">
+                <div class="leftside">
+                    <input type="search" placeholder="Digite o nome do Burger">
+                </div>
+                <div class="rightside">
+                    <select>
+                        <option value="">Selecionar Categoria</option>
+                        <option value="burger">Burgers</option>
+                        <option value="pizza">Pizza</option>
+                        <option value="vegetariano">Vegetariano</option>
+                        <option value="kids">kids</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="container">
+            <div class="products-grid">
+                <a href="" class="product-item">
+                    <div class="warning">Promoção</div>
+                    <div class="photo">
+                        <img src="./_assets/_img/Card-burger-1 1.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="product-category">Tradicional</div>
+                        <div class="product-name">Rock Burger</div>
+                        <div class="product-price">R$ 25,50</div>
+
+                    </div>
+                </a>
+                <a href="" class="product-item">
+                    <div class="photo">
+                        <img src="./_assets/_img/Card-burger-1 2.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="product-category">Tradicional</div>
+                        <div class="product-name">New Burger</div>
+                        <div class="product-price">R$ 35,50</div>
+
+                    </div>
+                </a>
+                <a href="" class="product-item">
+                    <div class="photo">
+                        <img src="./_assets/_img/Card-burger-1 2.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="product-category">Tradicional</div>
+                        <div class="product-name">Box Burger</div>
+                        <div class="product-price">R$ 40,00</div>
+
+                    </div>
+                </a>
+                <a href="" class="product-item">
+                    <div class="photo">
+                        <img src="./_assets/_img/Card-burger-2 4.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="product-category">Tradicional</div>
+                        <div class="product-name">Bill Burger</div>
+                        <div class="product-price">R$ 15,90</div>
+
+                    </div>
+                </a>
+                <a href="" class="product-item">
+                    <div class="photo">
+                        <img src="./_assets/_img/Card-burger-3 1.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="product-category">Tradicional</div>
+                        <div class="product-name">Big Burger</div>
+                        <div class="product-price">R$ 30,00</div>
+
+                    </div>
+                </a>
+                <a href="" class="product-item">
+                    <div class="warning">Promoção</div>
+                    <div class="photo">
+                        <img src="./_assets/_img/Card-burger-4 1.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="product-category">Tradicional</div>
+                        <div class="product-name">Show Burger</div>
+                        <div class="product-price">R$ 45,90</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <a href="">B7 <span>.</span> Burguer
+                </a>
+            </div>
+            <div class="copyrights">criado pela <a href="">B7Web</a>.</div>
+        </div>
+
+    </footer>
+
+    <script src="https://kit.fontawesome.com/2621df46d3.js" crossorigin="anonymous"></script>
 </body>
+
+
+
 
 </html>
